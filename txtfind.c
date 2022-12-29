@@ -19,7 +19,7 @@ int getLine(char s[]){
 int getWord(char w[]){
     char c;
     int i=0;
-    while((c=getchar())!=EOF && c!='\n' && c!='\t' && c!=' ' ) {
+    while((c=getchar())!=EOF && c!='\n' && c!='\t' && c!=' ' && c!='\r') {
         w[i]=c;
         i++;
     }
