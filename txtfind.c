@@ -7,7 +7,7 @@
 int getLine(char s[]){
     char c;
     int i=0;
-    while((c=getchar())!=EOF && c!='\n') {
+    while((c=getchar())!=EOF && c!='\n' && c!='\r') {
         s[i]=c;
         i++;
     }
